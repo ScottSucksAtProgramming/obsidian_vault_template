@@ -5,13 +5,13 @@ aliases:
 summary: +++ Summary paragraph goes here +++
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-24 20:33
+updated: 2023-11-26 21:47
 template-type: Structure
 template-version: "1.8"
 banner: 
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Main STRUCTURE of my content -->
 - 

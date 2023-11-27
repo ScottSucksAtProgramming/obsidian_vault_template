@@ -6,7 +6,7 @@ aliases:
 summary: Map of content for creators.
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 21:05
+updated: 2023-11-26 22:05
 template-type: Structure
 template-version: "1.0"
 banner: "![[creator_banner.jpg]]"
@@ -31,7 +31,8 @@ color green
 
 
 ```dataview
-LIST
+TABLE
+bio_short AS "Bio"
 FROM "2_zettelkasten/bibliographical_notes/creator_notes" and -#structure/moc
 SORT file.cday DESC
 ```

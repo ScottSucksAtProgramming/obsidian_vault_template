@@ -4,15 +4,18 @@ tags:
 aliases: 
 summary: +++ Summary paragraph goes here +++
 created: 2023-11-24 20:02
-updated: 2023-11-26 21:48
-banner: 
+updated: 2023-11-26 21:52
+banner: "![[projects_banner.jpg]]"
 template-type: Note
 template-version: "1.14"
+jd_code: 
+status: 
+deadline: 
+start_date: 
+end_date: 
 ---
-<!--  See "Template Help" below for using properties -->
-
 # <% tp.file.title %>
-
+<% await tp.file.move("/1_lifeOS/project_notes/" + tp.file.title) %>
 <!--  Main idea of my thoughts -->
 
 > [!Note]
@@ -41,4 +44,6 @@ template-version: "1.14"
 
 ## References
 <!-- Links to pages not referenced in the content. -->
-- 
+- **Task Manager Link:** 
+- **Planning Document Link:** 
+- **Resources Folder:** 

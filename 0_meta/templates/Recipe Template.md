@@ -7,12 +7,12 @@ summary: +++ Summary paragraph goes here +++
 visual: "![[image.jpg]]"
 banner: 
 created: 2023-11-24 20:35
-updated: 2023-11-24 20:35
+updated: 2023-11-26 21:47
 template-type: Note
 template-version: "1.2"
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Main content of my thoughts really -->
 

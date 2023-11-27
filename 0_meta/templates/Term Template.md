@@ -6,13 +6,13 @@ summary: +++ Term definition goes here +++
 source: +++ source undefined +++
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:39
-updated: 2023-11-24 20:39
+updated: 2023-11-26 21:47
 template-type: Term
 template-version: "1.11"
 banner: 
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Term definition and source from frontmatter goes here. Also used for Dataview glossary. -->
 

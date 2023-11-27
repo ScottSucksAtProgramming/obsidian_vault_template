@@ -39,7 +39,7 @@ date:
 read: 
 status: undefined
 created: 2023-11-24 20:07
-updated: 2023-11-24 20:15
+updated: 2023-11-26 21:48
 template-type: Book
 template-version: "1.11"
 ---
@@ -52,7 +52,7 @@ status: undefined, backlog, to read, reading, completed, stopped
 
 ![cover|150]({{coverUrl}})
 
-# {{Title}}
+# <% tp.file.title %>
 
 by [[{{author}}]]
 

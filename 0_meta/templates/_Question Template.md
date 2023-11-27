@@ -5,13 +5,13 @@ aliases:
 summary: +++ Question answer goes here +++
 banner: 
 created: 2023-11-24 20:06
-updated: 2023-11-26 20:41
+updated: 2023-11-26 21:48
 template-type: Question
 template-version: "1.14"
 ---
 <!--  See "Template Help" below for using properties -->
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Detailed question from short title in front matter -->
 

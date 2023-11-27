@@ -7,13 +7,13 @@ author:
 year: 
 visual: "![[image.jpg]]"
 created: 2023-11-24 21:02
-updated: 2023-11-24 21:03
+updated: 2023-11-26 21:48
 template-type: Quote
 template-version: "1.8"
 banner: 
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Quote and author from frontmatter goes here. Also used for Dataview list of quotes. -->
 

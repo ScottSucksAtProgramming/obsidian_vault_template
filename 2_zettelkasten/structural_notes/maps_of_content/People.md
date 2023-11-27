@@ -6,7 +6,7 @@ aliases:
 summary: Map of content for all meetings within my obsidian vault.
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 20:40
+updated: 2023-11-26 22:05
 template-type: Structure
 template-version: "1.8"
 banner: "![[people_banner.jpg]]"

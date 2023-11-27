@@ -6,13 +6,13 @@ aliases:
 summary: +++ Prompt usage goes here +++
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:43
-updated: 2023-11-24 21:01
+updated: 2023-11-26 21:48
 template-type: Prompt
 template-version: "1.2"
 banner: 
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Detailed question from short title in front matter -->
 
