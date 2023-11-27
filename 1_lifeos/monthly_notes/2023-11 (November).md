@@ -1,14 +1,14 @@
 ---
 created: 2023-11-23 22:07
-updated: 2023-11-26 19:26
+updated: 2023-11-26 19:25
 tags:
   - type/note
   - source/self
 banner: "![[monthly_note_banner.jpg]]"
 ---
-# {{date: MMMM gggg}}
+# November 2023
 
-- <% tp.file.cursor() %>
+- 
 
 ---
 

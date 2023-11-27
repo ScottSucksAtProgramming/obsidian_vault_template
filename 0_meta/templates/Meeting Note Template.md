@@ -2,16 +2,19 @@
 tags:
   - type/note
 aliases: 
-summary: This is a placeholder note.
+summary: +++ Summary paragraph goes here +++
 created: 2023-11-24 20:02
-updated: 2023-11-25 17:41
-banner: 
+updated: 2023-11-26 17:37
+banner: "![[meeting_moc_banner.jpg]]"
 template-type: Note
 template-version: "1.14"
+meeting_date: 
+company: 
 ---
-<!--  See "Template Help" below for using properties -->
 
-# {{Title}}
+<!--  See "Template Help" below for using properties -->
+<% await tp.file.move("/2_zettelkasten/literature_notes/meeting_notes/" + tp.date.now("YYYY-MM-DD") + " " + tp.file.title) %>
+# [[<% tp.date.now("YYYY-MM-DD") + " " + tp.file.title %>]]
 
 <!--  Main idea of my thoughts -->
 
@@ -19,12 +22,24 @@ template-version: "1.14"
 > `= this.summary`
 
 <!-- Other content of my note  -->
+**Attendees**: 
+- 
+
+
+## Agenda/Questions
+- 
+
+
+## Notes
+-  
+
 
 ---
 # Back Matter
 
 ## Source
 <!-- Always keep a link to the source- --> 
+**Agenda:** [Markdown link to agenda]
 - 
 
 ## Tasks
@@ -41,4 +56,5 @@ template-version: "1.14"
 
 ## References
 <!-- Links to pages not referenced in the content. -->
+**Attendees:** 
 - 

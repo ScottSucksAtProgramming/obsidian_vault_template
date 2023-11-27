@@ -5,7 +5,7 @@ aliases:
 summary: +++ Question answer goes here +++
 banner: 
 created: 2023-11-24 20:06
-updated: 2023-11-24 20:42
+updated: 2023-11-26 20:41
 template-type: Question
 template-version: "1.14"
 ---
@@ -41,11 +41,3 @@ template-version: "1.14"
 <!-- Links to pages where the answer is used for -->
 - 
 
-## Template Help
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
