@@ -63,7 +63,8 @@
 		{"id":"c4f0d96d7e20f8f0","type":"text","text":"# How to Tag Notes","x":150,"y":-20,"width":250,"height":80},
 		{"id":"cb6488a7dd7b1a2e","type":"text","text":"Describes notes as part of their workflow outside of Zettelkasten.","x":1438,"y":179,"width":250,"height":120},
 		{"id":"6024cdff4a3e4bcc","type":"text","text":"Used to search for notes of the same type by different attributes","x":720,"y":179,"width":250,"height":120},
-		{"id":"de990dc627748226","type":"text","text":"Used to search for notes with common characteristics.","x":0,"y":179,"width":250,"height":120}
+		{"id":"de990dc627748226","type":"text","text":"Used to search for notes with common characteristics.","x":0,"y":179,"width":250,"height":120},
+		{"id":"21fb36fb550460a6","type":"text","text":"#role/partner","x":615,"y":1587,"width":205,"height":50}
 	],
 	"edges":[
 		{"id":"857c3a6c489ca6f8","fromNode":"c4f0d96d7e20f8f0","fromSide":"bottom","toNode":"7dc696f54c86d9c4","toSide":"top","toEnd":"none"},
@@ -131,6 +132,7 @@
 		{"id":"04e3e12a262ccabd","fromNode":"5448cd1206540148","fromSide":"bottom","toNode":"2c3d1e7a3248a440","toSide":"top","toEnd":"none"},
 		{"id":"6833edcd2919ebe8","fromNode":"6a9dae42a62c7a1b","fromSide":"right","toNode":"db6863ffa6bfe6d1","toSide":"left"},
 		{"id":"5bafeb881a5b0b74","fromNode":"90cf18561c9f9b5a","fromSide":"right","toNode":"e911716165364b89","toSide":"left"},
-		{"id":"1758a7f4ecfb2c7f","fromNode":"6cced3d9b941f6dc","fromSide":"right","toNode":"0c3a70a45961057c","toSide":"left"}
+		{"id":"1758a7f4ecfb2c7f","fromNode":"6cced3d9b941f6dc","fromSide":"right","toNode":"0c3a70a45961057c","toSide":"left"},
+		{"id":"33bf88aafc0e20d0","fromNode":"e911716165364b89","fromSide":"bottom","toNode":"21fb36fb550460a6","toSide":"left","toEnd":"none"}
 	]
 }

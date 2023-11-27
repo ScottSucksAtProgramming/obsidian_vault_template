@@ -6,7 +6,7 @@ aliases:
 summary: A Map of Content linking to notes related to using this obsidian vault.
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 19:20
+updated: 2023-11-27 16:34
 template-type: Structure
 template-version: "1.8"
 banner: "![[map_of_content_banner.jpg]]"

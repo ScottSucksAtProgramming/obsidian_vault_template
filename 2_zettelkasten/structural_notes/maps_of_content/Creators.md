@@ -6,7 +6,7 @@ aliases:
 summary: Map of content for creators.
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 22:05
+updated: 2023-11-27 16:32
 template-type: Structure
 template-version: "1.0"
 banner: "![[creator_banner.jpg]]"

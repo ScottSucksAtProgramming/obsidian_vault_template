@@ -5,7 +5,7 @@ aliases:
 summary: +++ Summary paragraph goes here +++
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 21:47
+updated: 2023-11-27 16:20
 template-type: Structure
 template-version: "1.8"
 banner: 
@@ -37,4 +37,12 @@ banner:
 
 ## References
 <!-- Links to pages not referenced in the content -->
-- 
+-
+
+### Templates Not Listed in this Map of Content
+```dataview
+LIST
+FROM "ADD DATA HERE"
+WHERE !contains(this.file.outlinks, file.link)
+sort file.name ASC
+```

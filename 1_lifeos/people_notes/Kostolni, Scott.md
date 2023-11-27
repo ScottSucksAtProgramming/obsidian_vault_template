@@ -5,8 +5,7 @@ tags:
 aliases:
   - Me
   - Scott
-  - scott
-  - scott kostolni
+  - Scott Kostolni
 birth: 1986-01-02
 death: 
 company: "[[Stony Brook EMS]]"
@@ -14,18 +13,19 @@ location: New York
 title: Paramedic
 email: ScottKostolni@gmail.com
 website: http://scottkostolni.com
-visual: "![[image.jpg]]"
+visual: "![[Kostolni, Scott.jpeg|250]]"
 created: 2023-11-26 19:32
-updated: 2023-11-26 20:18
+updated: 2023-11-27 15:28
 template-type: Person
 template-version: "1.0"
 banner: "![[person_banner.jpg]]"
 ---
 
 # Scott Kostolni
-
+![[Kostolni, Scott.jpeg|250]]
 
 - It's me!
+- Completely absolutely in love with [[Brandt, Kristina|Tina Brandt]].
 
 
 ## Meetings

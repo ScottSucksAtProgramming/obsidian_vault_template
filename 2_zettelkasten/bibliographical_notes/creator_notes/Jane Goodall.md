@@ -6,17 +6,17 @@ death:
 bio_short: +++ Short Bio here +++
 visual: "![[image.jpg]]"
 created: 2023-11-26 19:32
-updated: 2023-11-27 15:19
+updated: 2023-11-27 15:53
 template-type: Creator
 template-version: "1.11"
 banner: "![[creator_banner.jpg]]"
 ---
 
-# <% tp.file.title %>
-<% await tp.file.move("/2_zettelkasten/bibliographical_notes/creator_notes/" + tp.file.title) %>
+# Jane Goodall
+
 ##  Bio
 <!-- Short biography of the AUTHOR -->
-![image|150](<% tp.frontmatter.visual %>)
+![image|150](undefined)
 > [!Bio short]
 > `= this.bio_short`
 

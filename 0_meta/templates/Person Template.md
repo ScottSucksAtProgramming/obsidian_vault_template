@@ -8,9 +8,9 @@ location:
 title: 
 email: 
 website: 
-visual: "![[image.jpg]]"
+visual: "![[image.jpg|250]]"
 created: 2023-11-26 19:32
-updated: 2023-11-26 20:22
+updated: 2023-11-27 15:24
 template-type: Person
 template-version: "1.0"
 banner: "![[person_banner.jpg]]"
@@ -18,7 +18,7 @@ banner: "![[person_banner.jpg]]"
 
 # <% tp.file.title %>
 <% await tp.file.move("/1_lifeOS/people_notes/" + tp.file.title) %>
-
+<% tp.frontmatter.visual %>
 - 
 
 

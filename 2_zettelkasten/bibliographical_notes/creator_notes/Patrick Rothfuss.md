@@ -1,22 +1,23 @@
 ---
-tags: type/person role/tk
+tags: type/person role/author
 aliases: 
 birth: 
 death: 
-bio_short: +++ Short Bio here +++
-visual: "![[image.jpg]]"
+bio_short: Author and internet celebrity most known for the King Killer Chronicles series
+visual: https://upload.wikimedia.org/wikipedia/commons/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg
 created: 2023-11-26 19:32
-updated: 2023-11-27 15:19
+updated: 2023-11-27 15:18
 template-type: Creator
 template-version: "1.11"
 banner: "![[creator_banner.jpg]]"
 ---
 
-# <% tp.file.title %>
-<% await tp.file.move("/2_zettelkasten/bibliographical_notes/creator_notes/" + tp.file.title) %>
+# Patrick Rothfuss
+
+
 ##  Bio
 <!-- Short biography of the AUTHOR -->
-![image|150](<% tp.frontmatter.visual %>)
+![image|150](https://upload.wikimedia.org/wikipedia/commons/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg)
 > [!Bio short]
 > `= this.bio_short`
 
@@ -25,10 +26,9 @@ banner: "![[creator_banner.jpg]]"
 <!-- Only most important I‘ve read -->
 ### Articles
 ```dataview
-TABLE WITHOUT ID
-    link(file.link, title) as Title,
-    file.cday AS "Created",
-    summary AS "Summary"
+TABLE
+file.cday as "Created",
+summary as "Summary"
 FROM "2_zettelkasten/literature_notes/article_notes"
 WHERE contains(file.outlinks, this.file.link)
 SORT file.cday DESC
@@ -41,7 +41,7 @@ TABLE WITHOUT ID
 	"![|60](" + cover_url + ")" as Cover,
     summary AS Summary,
     join(list(publisher, publish_date)) as Publisher
-FROM "#type/book"
+FROM #type/book
 WHERE contains(file.outlinks, this.file.link)
 SORT file.cday DESC
 ```

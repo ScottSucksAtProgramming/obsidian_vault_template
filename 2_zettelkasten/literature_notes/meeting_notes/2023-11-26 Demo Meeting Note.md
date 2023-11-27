@@ -4,16 +4,13 @@ tags:
 aliases: 
 summary: This is a test meeting note to ensure that the Create New Meeting button and obsidian meeting workflow is working correctly. Link the map of content to the company or project in the company property. Adjust the note title and meeting_date property to the date of the meeting.
 created: 2023-11-24 20:02
-updated: 2023-11-26 20:21
+updated: 2023-11-26 23:21
 banner: "![[meeting_moc_banner.jpg]]"
 template-type: Note
 template-version: "1.14"
 meeting_date: 
 company: 
 ---
-
-<!--  See "Template Help" below for using properties -->
-
 # [[2023-11-26 Demo Meeting Note]]
 
 <!--  Main idea of my thoughts -->

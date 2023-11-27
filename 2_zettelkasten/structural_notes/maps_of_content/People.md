@@ -6,7 +6,7 @@ aliases:
 summary: Map of content for all meetings within my obsidian vault.
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-26 22:05
+updated: 2023-11-27 16:23
 template-type: Structure
 template-version: "1.8"
 banner: "![[people_banner.jpg]]"
@@ -26,13 +26,8 @@ templater true
 color green
 ```
 ## People Notes
-
-
-```dataview
-LIST
-FROM "1_lifeOS/people_notes" and -#structure/moc
-SORT file.cday DESC
-```
+- [[Kostolni, Scott|Scott Kostolni]]
+- [[Brandt, Kristina|Tina Brandt]]
 <!-- Main STRUCTURE of my content -->
 
 
@@ -56,4 +51,12 @@ SORT file.cday DESC
 
 ## References
 <!-- Links to pages not referenced in the content -->
-- 
+-
+
+### Templates Not Listed in this Map of Content
+```dataview
+LIST
+FROM "1_lifeOS/people_notes"
+WHERE !contains(this.file.outlinks, file.link)
+sort file.name ASC
+```

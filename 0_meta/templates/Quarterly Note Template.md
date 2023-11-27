@@ -1,6 +1,6 @@
 ---
 created: 2023-11-23 22:07
-updated: 2023-11-26 19:26
+updated: 2023-11-27 15:48
 tags:
   - type/note
   - source/self
@@ -11,11 +11,23 @@ banner: "![[quarterly_note_banner.jpg]]"
 - <% tp.file.cursor() %>
 
 ---
+# Back Matter
+## Source
+<!-- Always keep a link to the source. --> 
+- 
 
-### Monthly Notes
-```dataview
-LIST
-FROM "1_lifeOS/monthly_notes" 
-WHERE file.cday.quarter = this.file.cday.quarter
-SORT Tags asc
-```
+## Tasks
+<!-- What remains to be done with this note? --> 
+- 
+
+## Questions
+<!-- What remains for you to consider? --> 
+- 
+
+## Terms
+<!-- Links to definition pages -->
+- 
+
+## References
+<!-- Links to pages not referenced in the content -->
+- **Yearly Note:** [[{{date: YYYY}}]]
