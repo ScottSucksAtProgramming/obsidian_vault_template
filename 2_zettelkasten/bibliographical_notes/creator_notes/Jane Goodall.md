@@ -6,17 +6,18 @@ death:
 bio_short: +++ Short Bio here +++
 visual: "![[image.jpg]]"
 created: 2023-11-26 19:32
-updated: 2023-11-27 15:53
+updated: 2023-11-27 17:34
 template-type: Creator
 template-version: "1.11"
 banner: "![[creator_banner.jpg]]"
 ---
 
 # Jane Goodall
+![image|150](undefined)
 
 ##  Bio
 <!-- Short biography of the AUTHOR -->
-![image|150](undefined)
+
 > [!Bio short]
 > `= this.bio_short`
 

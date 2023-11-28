@@ -6,7 +6,7 @@ aliases:
 summary: +++ Tool summary goes here +++
 visual: "![[image.jpg]]"
 created: 2023-11-24 21:04
-updated: 2023-11-26 21:47
+updated: 2023-11-27 18:38
 template-type: Tool
 template-version: "1.8"
 banner: 
@@ -15,7 +15,8 @@ banner:
 # <% tp.file.title %>
 
 <!-- Short description of TOOL goes here -->
-
+> [!Note]
+> `= this.summary`
 
 
 ## Usage

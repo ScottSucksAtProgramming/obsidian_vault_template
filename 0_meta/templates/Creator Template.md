@@ -3,10 +3,10 @@ tags: type/person role/tk
 aliases: 
 birth: 
 death: 
-bio_short: +++ Short Bio here +++
+summary: +++ Short Bio here +++
 visual: "![[image.jpg]]"
 created: 2023-11-26 19:32
-updated: 2023-11-27 15:19
+updated: 2023-11-27 18:41
 template-type: Creator
 template-version: "1.11"
 banner: "![[creator_banner.jpg]]"
@@ -14,11 +14,12 @@ banner: "![[creator_banner.jpg]]"
 
 # <% tp.file.title %>
 <% await tp.file.move("/2_zettelkasten/bibliographical_notes/creator_notes/" + tp.file.title) %>
+![image|150](<% tp.frontmatter.visual %>)
 ##  Bio
 <!-- Short biography of the AUTHOR -->
-![image|150](<% tp.frontmatter.visual %>)
-> [!Bio short]
-> `= this.bio_short`
+
+> [!Short Bio]
+> `= this.summary`
 
 
 ## Content

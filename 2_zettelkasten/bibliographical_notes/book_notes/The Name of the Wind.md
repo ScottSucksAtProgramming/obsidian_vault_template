@@ -25,7 +25,7 @@ date:
 read: 
 status: read
 created: 2023-11-24 20:07
-updated: 2023-11-27 15:09
+updated: 2023-11-27 17:32
 template-type: Book
 template-version: "1.12"
 ---
@@ -58,7 +58,7 @@ by `=this.authors`
 
 ## Quotes
 <!-- Notable quotes with reference to their page or location -->
-
+- 
 ## Bibliography
 
 > `= this.bibliography`

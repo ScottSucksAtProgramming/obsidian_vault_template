@@ -3,20 +3,17 @@ tags:
   - type/structure
   - structure/moc
 aliases: 
-summary: Map of content for creators.
+summary: Creators are collected within this vault as part of the personal knowledge management aspect of the vault. They are kept for citing purposes. The Add Creator button below will create a new note for a creator and lists sources and literature notes related to them. A creator uses the [[Creator Template]].
 visual: "![[image.jpg]]"
 created: 2023-11-24 20:33
-updated: 2023-11-27 16:32
+updated: 2023-11-27 19:05
 template-type: Structure
 template-version: "1.0"
 banner: "![[creator_banner.jpg]]"
 ---
 # Creators
-
-
-Creators are collected within this vault as part of the personal knowledge management aspect of the vault. They are kept for citing purposes.
-
-The Add Creator button below will create a new note for a creator and lists sources and literature notes related to them. A creator uses the [[Creator Template]].
+>[!Note]
+>`= this.summary`
 
 ```button
 name Add Creator
@@ -27,7 +24,7 @@ color green
 ```
 
 ---
-## Creators
+# Creator List
 
 
 ```dataview

@@ -5,12 +5,12 @@ tags:
 aliases: 
 summary: Created a obsidian vault template to be used as a starting point for new vaults.
 created: 2023-11-24 20:02
-updated: 2023-11-26 22:00
+updated: 2023-11-27 17:15
 banner: "![[projects_banner.jpg]]"
 template-type: Note
 template-version: "1.14"
 jd_code: 1
-status: In Progess
+status: in_progress
 deadline: 
 start_date: 2023-11-01
 end_date: 

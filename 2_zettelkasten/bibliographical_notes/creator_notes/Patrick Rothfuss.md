@@ -6,18 +6,20 @@ death:
 bio_short: Author and internet celebrity most known for the King Killer Chronicles series
 visual: https://upload.wikimedia.org/wikipedia/commons/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg
 created: 2023-11-26 19:32
-updated: 2023-11-27 15:18
+updated: 2023-11-27 17:34
 template-type: Creator
 template-version: "1.11"
 banner: "![[creator_banner.jpg]]"
 ---
 
 # Patrick Rothfuss
+<!-- Short biography of the AUTHOR -->
+![image|150](https://upload.wikimedia.org/wikipedia/commons/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg)
+
 
 
 ##  Bio
-<!-- Short biography of the AUTHOR -->
-![image|150](https://upload.wikimedia.org/wikipedia/commons/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg)
+
 > [!Bio short]
 > `= this.bio_short`
 

@@ -25,7 +25,7 @@ date:
 read: 
 status: 
 created: 2023-11-24 20:07
-updated: 2023-11-27 15:09
+updated: 2023-11-27 18:41
 template-type: Book
 template-version: "1.12"
 ---
@@ -44,8 +44,8 @@ by [[{{author}}]]
 
 ## Summary
 <!-- No more than a couple paragraphs summarizing this BOOK -->
-
-`= this.summary`
+> [!Summary]
+> `= this.summary`
 
 ## Table of Contents
 <!--Link to table of contents (TOC) -->
